@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Itinerary Planner</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <div class="location-form">
+    <h2>Plan Your Trip</h2>
+    <form id="trip-form">
+      <label for="location">Destination:</label>
+      <input type="text" id="location" placeholder="e.g. Paris" />
+
+      <label for="days">Number of Days:</label>
+      <input type="text" id="days" placeholder="e.g. 5" />
+      <label for="budget">Total Budget (₹):</label>
+    <input type="text" id="budget" placeholder="e.g. 20000">
+
+
+      <button type="submit">Generate Plan</button>
+    </form>
+  </div>
+
+  <div class="full-screen-result" id="trip-result" style="display:none;">
+    <h2>Your Travel Plan</h2>
+    <div id="generated-plan" style="text-align: left; white-space: pre-wrap; max-width: 90%; margin: auto;"></div>
+  </div>
+
+   <script src="static/script.js"></script>
+</body>
+</html>
