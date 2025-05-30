@@ -3,7 +3,7 @@
 **PlanVoyage** is a Flask-based web application that leverages **Google's Gemini AI** to craft personalized travel itineraries. Just enter your **destination**, **trip duration**, and **budget** – and let the AI do the rest!
 
 ---
-
+[Live Demo](https://planvoyage-oi97.onrender.com/)
 ## 💡 Features
 
 * 🗓️ Day-wise sightseeing itineraries
