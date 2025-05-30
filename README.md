@@ -1,72 +1,91 @@
-# PlanVoyage - Gemini-Powered Travel Itinerary Generator 🌍✈️
+# 🌍✈️ PlanVoyage – Gemini-Powered Travel Itinerary Generator
 
-PlanVoyage is a Flask web app that uses Google's Gemini AI to generate customized travel itineraries. Just enter your destination, duration, and budget, and let the AI do the rest!
+**PlanVoyage** is a Flask-based web application that leverages **Google's Gemini AI** to craft personalized travel itineraries. Just enter your **destination**, **trip duration**, and **budget** – and let the AI do the rest!
+
+---
 
 ## 💡 Features
 
-- Generate day-wise sightseeing itineraries
-- Suggest local food and cultural tips
-- Recommends budget stays and hospitals
-- Gemini-powered content generation
-- Clean, responsive UI
+* 🗓️ Day-wise sightseeing itineraries
+* 🍽️ Local food suggestions & cultural tips
+* 🏨 Budget stay recommendations
+* 🏥 Nearby hospitals for emergencies
+* ⚡ Powered by Google Gemini (Generative AI)
+* 📱 Clean, responsive user interface
+
+---
 
 ## 🚀 Tech Stack
 
-- Python (Flask)
-- Google Generative AI (Gemini)
-- HTML, CSS, JavaScript
-- CORS enabled for local testing
+* **Backend**: Python (Flask)
+* **AI Integration**: Google Generative AI (Gemini)
+* **Frontend**: HTML, CSS, JavaScript
+* **Other**: CORS enabled for local API communication
+
+---
 
 ## 🛠️ Setup Instructions
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/reshanajk006/planvoyage.git
-   cd planvoyage
-````
+### 1. Clone the Repository
 
-2. **Create a virtual environment**
+```bash
+git clone https://github.com/reshanajk006/planvoyage.git
+cd planvoyage
+```
 
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
+### 2. Create and Activate a Virtual Environment
 
-3. **Install dependencies**
+```bash
+python -m venv venv
+source venv/bin/activate        # For macOS/Linux
+venv\Scripts\activate           # For Windows
+```
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 3. Install Dependencies
 
-4. **Set your Gemini API Key**
+```bash
+pip install -r requirements.txt
+```
 
-   Replace the value of `GOOGLE_API_KEY` in `app.py` with your own Google Gemini API key.
+### 4. Set Your Gemini API Key
 
-5. **Run the app**
+Open `app.py` and replace:
 
-   ```bash
-   python server.py
-   ```
+```python
+GOOGLE_API_KEY = "your-api-key-here"
+```
 
-6. **Visit**
+with your actual **Google Gemini API key**.
 
-   ```
-   http://localhost:5000
-   ```
+### 5. Run the App
 
-## 🌐 Deployment (Heroku or Railway)
+```bash
+python server.py
+```
 
-Make sure these files exist:
+### 6. Access the App
+
+Open your browser and go to:
+
+```
+http://localhost:5000
+```
+
+---
+
+## 🌐 Deployment Guide (Heroku or Railway)
+
+Ensure the following files are present in your project directory:
 
 * `Procfile`
 * `requirements.txt`
 
-Then deploy using your preferred cloud service.
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+Feel free to use, modify, and share!
 
 ---
 
-## 📝 License
-
-MIT License
-
-````
