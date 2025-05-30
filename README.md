@@ -1,4 +1,3 @@
-````markdown
 # PlanVoyage - Gemini-Powered Travel Itinerary Generator 🌍✈️
 
 PlanVoyage is a Flask web app that uses Google's Gemini AI to generate customized travel itineraries. Just enter your destination, duration, and budget, and let the AI do the rest!
