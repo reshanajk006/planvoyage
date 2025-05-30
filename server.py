@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import google.generativeai as genai
 from flask_cors import CORS
 import markdown2
+import os
 
 app = Flask(__name__)
 CORS(app)
